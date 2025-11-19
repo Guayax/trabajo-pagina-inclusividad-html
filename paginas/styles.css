@@ -32,6 +32,13 @@ header
    grid-gap: 20px;
    padding: 100px 0;
 }
+.explicacion h2 {
+    text-shadow:
+    -1px -1px 0 white,
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white;
+}
 
 .reveal-text p {
   opacity: 0;              /* El texto comienza invisible */

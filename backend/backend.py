@@ -1,9 +1,9 @@
 #unholy python backend.
 import os
 import json
-dir_path = "media/galeria"
+dir_path = "paginas/media/galeria"
 
-#Obtine una lista de los nombres de archivos dentro de la carpeta galeria.
+#Obtiene una lista de los nombres de archivos dentro de la carpeta galeria.
 def ContarArchivos():
     imagenes =[]
     for imagen in os.listdir(dir_path):

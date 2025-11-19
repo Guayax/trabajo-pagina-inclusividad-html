@@ -11,9 +11,17 @@ body{
     background-color: rgb(85, 84, 84);
 }
 
+header
+{
+    background-image: url(nubes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+
 .encabezado{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: black;
 }
 .galeria {
    max-width: 1200px;
@@ -27,7 +35,7 @@ body{
 .imagen:hover {
     
     filter: opacity(0.9);
-    transform: scale(1.1);
+    transform: scale(1.04);
 }
 
 .imagen{

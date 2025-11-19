@@ -32,6 +32,21 @@ header
    grid-gap: 20px;
    padding: 100px 0;
 }
+
+.reveal-text p {
+  opacity: 0;              /* El texto comienza invisible */
+  transition: opacity 0.3s ease; /* Transición suave */
+
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+
+.reveal-text:hover p {
+  opacity: 1;              /* Se muestra cuando el mouse está encima */
+}
 .imagen:hover {
     
     filter: opacity(0.9);
